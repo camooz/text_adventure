@@ -8,37 +8,37 @@ int main(int argc, char *argv[])
 {		
   setlocale(LC_ALL, "Portuguese");
   char nome[12];
-  printf("Olá.\n\n");
+  printf("Ola.\n\n");
   printf("Como se chama?\n");
   printf("-------\n>> ");
   if (fgets(nome, 12, stdin))
   {
      nome[strcspn(nome, "\n")] = 0;
      Sleep(500);
-	 printf("\nÉ um prazer estar você, %s", nome);
+	 printf("\nï¿½ um prazer estar vocï¿½, %s", nome);
   }
   Sleep(1000);
-  printf("\n\nNa verdade, isto foi apenas um teste. Nós já nos conhecemos, %s", nome);
-  printf("\n\nAfinal, eu sou sua consciência.");
+  printf("\n\nNa verdade, isto foi apenas um teste. Nï¿½s jï¿½ nos conhecemos, %s", nome);
+  printf("\n\nAfinal, eu sou sua consciï¿½ncia.");
   Sleep(1000);
-  printf("\n\nVamos lá. Deixe eu explicar a situação: seu relógio marca 21h37. Você está em pé, esperando em um ponto de ônibus já faz algum tempo. O ponto fica em uma rua que você não conhece bem.");
-  printf("\n\nO que você faz?");
+  printf("\n\nVamos lï¿½. Deixe eu explicar a situaï¿½ï¿½o: seu relï¿½gio marca 21h37. Vocï¿½ estï¿½ em pï¿½, esperando em um ponto de ï¿½nibus jï¿½ faz algum tempo. O ponto fica em uma rua que vocï¿½ nï¿½o conhece bem.");
+  printf("\n\nO que vocï¿½ faz?");
   char resposta[1];
-  printf("\n[1] Esperar pelo ônibus.\n[2] Ir a pé\n[3] Não estou entendendo nada.");
+  printf("\n[1] Esperar pelo ï¿½nibus.\n[2] Ir a pï¿½\n[3] Nï¿½o estou entendendo nada.");
   fgets(resposta, 1, stdin);
   int valresposta = atoi(resposta);
   switch (valresposta)
   {
     case 1:
-    printf("\nHmm. Você não sabe quanto tempo pode ficar esperando pelo ônibus. Talvez algumas horas. Aliás, você não conhece bem o lugar.");
+    printf("\nHmm. Vocï¿½ nï¿½o sabe quanto tempo pode ficar esperando pelo ï¿½nibus. Talvez algumas horas. Aliï¿½s, vocï¿½ nï¿½o conhece bem o lugar.");
     break;
     case 2:
-    printf("\nCerto. Mas, para onde você quer ir a pé? E se o ônibus chegar pouco tempo depois de você partir?");
+    printf("\nCerto. Mas, para onde vocï¿½ quer ir a pï¿½? E se o ï¿½nibus chegar pouco tempo depois de vocï¿½ partir?");
     break;
     case 3:
     printf("\n");
     break;
     default:
-    printf("\nNão entendi o que você quis dizer com isso.");
+    printf("\nNï¿½o entendi o que vocï¿½ quis dizer com isso.");
 	}
   }
