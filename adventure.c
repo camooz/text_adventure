@@ -59,7 +59,7 @@ int main(void){
             break;
         case 3:
             Sleep(2000);
-            printf("\nEu também não estou entendendo nada, renicie o jogo para ver se você fica mais inteligente.");
+            printf("\nEntão busque conhecimento!");
             break;
         default:
             printf("\nDigite 1 ou 2 ou 3!");
