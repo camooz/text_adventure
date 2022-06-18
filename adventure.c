@@ -25,7 +25,7 @@ int main(void){
     Sleep(2000);
 
     printf("\n\nVamos lá. Deixe eu explicar a situação: seu relógio marca 21h37. Você está em pé, esperando em um ponto de ônibus já faz algum tempo. O ponto fica em uma rua que você não conhece bem.");
-    Sleep(4000);
+    Sleep(5000);
     printf("\n\nO que você faz?");
     Sleep(2000);
 
@@ -47,8 +47,27 @@ int main(void){
             /* ==================== GUSTAVO FIM ===================== */
             break;
         case 2:
+            int destination;
             Sleep(2000);
             printf("\nCerto. Mas, para onde você quer ir a pé? E se o ônibus chegar pouco tempo depois de você partir?");
+            Sleep(3000);
+            printf("\n[1] Ir para casa\n[2] Ir para um restaurante\n[3] Ir para a casa do seu melhor amigo\n");
+            Sleep(2000);
+            printf("-------\n>> ");
+            scanf("%d", &destination);
+            fflush(stdin);
+            Sleep(2000);
+            printf("\nOk. Mas de qualquer forma teremos que seguir por essa estrada. Então vamos!\n");
+            Sleep(2000);
+            printf("\n(Alguém começa a se aproximar de você, tal alguém estaria ali no mesmo ponto há um tempo, te observando... Não tenho certeza nem se trata de um humano.\n"); 
+            Sleep(3000);
+            printf("\n[ESTRANHO]: Olá humano, o que você está fazendo parado olhando para o céu? Até parece que você está conversando consigo mesmo dentro da sua mente\n");
+            Sleep(4000);
+            printf("\n[1] Ignorar ele\n[2] Responder: Olá estranho, sim realmente hahaha, estou conversando comigo mesmo em minha mente\n");
+            Sleep(2000);
+            printf("-------\n>> ");
+            scanf("%d", &resposta);
+            fflush(stdin);
             /* ==================== JOAO START ===================== */
 
 
