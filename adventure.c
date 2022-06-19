@@ -200,7 +200,7 @@ int main(void){
                             printf("\n==============FIM================\n");
                         }
                         else {
-                            printf("\n[APOSTADOR]: Infelizmente, não foi dessa vez!\n");
+                            printf("\n[APOSTADOR]: Infelizmente, não foi dessa vez! O número era o %d\n", random_number);
                             Sleep(3000);
                             printf("\nAff, não acredito que perdemos 100 reais de besta. Depois dessa vou pra casa assistir novela que eu ganho mais.\n");
                             Sleep(3000);
